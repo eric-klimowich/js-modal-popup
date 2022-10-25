@@ -68,7 +68,7 @@ form button {
   color: #fff;
   font-size: 1.4rem;
   font-weight: 700;
-  transition: .3s;
+  transition: all .3s;
   cursor: pointer;
 }
 
@@ -100,16 +100,16 @@ form button:hover {
 }
 
 @keyframes slide {
-  from {
+  0% {
     transform: translateY(-30rem);
   }
-  to {
+  100% {
     transform: translateY(0);
   }
 }
 
 .close {
-  position: absolute;
+  /* position: absolute; */
   top: 5px;
   right: 10px;
   color: var(--color-primary);
